@@ -1,0 +1,37 @@
+{
+  "Endpoint": "http://<Litium back office url>/graphql",
+  "Token": "<Your Litium Service Account token>",
+  "DeliveryMethodId": "bced0903-8411-42b9-8073-5e3d9f71e08d",
+  "ChannelId": "3963b20d-4d89-4ddb-92dc-d0c897dc149a",
+  "CurrencyCode": "SEK",
+  "Customer": {
+    "Id": "81b33ecd-4207-4fd7-9c4f-928482fe1a3b",
+    "DeliveryAddress": {
+      "FirstName": "",
+      "LastName": "",
+      "OrganizationName": "Hantera",
+      "Address1": "Kaplansgatan 18",
+      "Address2": null,
+      "City": "Skövde",
+      "PostalCode": "541 34",
+      "CountryCode": "SE",
+      "State": null,
+      "Email": "hantera@example.com",
+      "Phone": null
+    }
+  },
+  "Row": {
+    "ProductNumber": "Product1234",
+    "Quantity": 1
+  },
+  "Payment": {
+    "Provider": "KlarnaV3",
+    "Method": "KCOV3_SE KlarnaCheckout",
+    "TransactionReference": "test1234",
+    "ReservedAmount": 1500
+  },
+  "Actions": {
+    "Ship": true,
+    "Invoice": true
+  }
+}
