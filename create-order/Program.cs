@@ -32,7 +32,7 @@ var createCommands = new List<object>{
       CountryCode = config["Customer:DeliveryAddress:CountryCode"],
       State = config["Customer:DeliveryAddress:State"],
       Email = config["Customer:DeliveryAddress:Email"],
-      Phone = config["Customer:DeliveryAddress:Phone"]
+      PhoneNumber = config["Customer:DeliveryAddress:Phone"]
     }
   },
   new {
