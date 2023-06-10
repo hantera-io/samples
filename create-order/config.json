@@ -2,6 +2,7 @@
   "Endpoint": "http://<Litium back office url>/graphql",
   "Token": "<Your Litium Service Account token>",
   "DeliveryMethodId": "bced0903-8411-42b9-8073-5e3d9f71e08d",
+  "InventoryId": "9b6e97e3-4ee4-41c2-b01f-e1b972b0a442",
   "ChannelId": "3963b20d-4d89-4ddb-92dc-d0c897dc149a",
   "CurrencyCode": "SEK",
   "Customer": {

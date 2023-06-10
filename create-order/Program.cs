@@ -20,6 +20,7 @@ var createCommands = new List<object>{
     Command = "AddDelivery",
     DeliveryId = deliveryId,
     DeliveryMethodId = Guid.Parse(config["DeliveryMethodId"]),
+    InventoryId = Guid.Parse(config["InventoryId"]),
     DeliveryAddress = new {
       AddressId = Guid.NewGuid(),
       FirstName = config["Customer:DeliveryAddress:FirstName"],
